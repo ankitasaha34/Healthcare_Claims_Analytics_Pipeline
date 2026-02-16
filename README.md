@@ -157,11 +157,3 @@ A baseline **logistic regression model** was built to predict claim approval sta
 * Applied data quality and governance principles to healthcare claims data
 * Designed analytics-ready fact and dimension tables for scalable reporting
 * Translated analytical outputs into actionable operational and financial insights
-
-
-* Tighten this into a **recruiter-skim version**
-* Add **chart image placeholders**
-* Align this **word-for-word with your resume bullets**
-* Create a **30–60 second GitHub walkthrough script**
-
-Just tell me what you’d like to do next 💪
