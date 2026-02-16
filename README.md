@@ -131,13 +131,23 @@ These visualizations support decision-making related to cost management, operati
 
 ## 🤖 Machine Learning (Baseline)
 
-A baseline **logistic regression model** was built to predict claim approval status.
+A baseline logistic regression model was trained to predict claim approval status using analytics-ready claims data.
 
-* **Accuracy:** ~66%
-* Demonstrated ML workflow integration using analytics-ready data
-* Identified **class imbalance and feature limitations**, informing future model improvements
+To address class imbalance between approved and non-approved claims, class weighting was applied during model training. The model was evaluated on a held-out test set.
 
-> This model is intended to demonstrate **machine learning process familiarity**, not production-grade predictive performance.
+Model Performance
+
+* Accuracy: ~52%
+* Recall (Approved Claims): ~54%
+* Macro F1-score: ~0.51
+
+Interpretation
+
+While overall accuracy was modest, the balanced recall across both classes indicates that the model learned meaningful patterns rather than defaulting to the majority class. The results highlight that claim approval decisions are complex and not easily predictable using basic demographic, financial, and claim-level features alone.
+
+This step demonstrates machine learning workflow integration and emphasizes the importance of feature selection, class balancing, and evaluation beyond accuracy for operational use cases.
+
+This model is intended to demonstrate ML process familiarity, not production-grade predictive performance.
 
 ---
 
